@@ -195,9 +195,10 @@ Review product distribution across categories to ensure **balanced inventory and
 Explore the interactive dashboard here:
 
 🔗 Tableau Public Dashboard  
-(Add your Tableau Public link here)
+https://public.tableau.com/app/profile/jerolin.mathew/viz/FUTURE_TASK_01_Tableau/Dashboard1?publish=yes
 
-
+Screenshot of Dashboard
+(images/Dashboard .png)
 ---
 
 # Project Structure
