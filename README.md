@@ -1,144 +1,208 @@
-📊 E-Commerce Sales Performance Analytics
+# 📊 E-Commerce Sales Performance Analytics
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project analyzes an Amazon e-commerce product dataset to evaluate product performance, pricing strategies, and customer satisfaction.
+This project analyzes an **Amazon e-commerce product dataset** to evaluate product performance, pricing strategies, and customer satisfaction.
 
-The objective is to simulate a real-world business analytics task, where raw sales data is cleaned, analyzed, and visualized to generate actionable insights for decision making.
+The objective is to simulate a **real-world business analytics workflow**, where raw sales data is cleaned, analyzed, and visualized to generate **actionable insights for decision-making**.
 
-The final output is an interactive Tableau dashboard that highlights:
+The final output is an **interactive Tableau dashboard** highlighting:
 
-Revenue contribution by product category
+- Revenue contribution by product category
+- Top revenue-generating products
+- Product distribution across categories
+- Customer rating patterns
+- Impact of discounts on product ratings
 
-Top revenue-generating products
 
-Product distribution across categories
+---
 
-Customer rating patterns
+# 🧰 Tools & Technologies Used
 
-Impact of discounts on product ratings
+| Tool | Purpose |
+|-----|------|
+| Python (Jupyter Notebook) | Data cleaning and preprocessing |
+| Pandas | Data manipulation and transformation |
+| Tableau Public | Data visualization and dashboard creation |
+| GitHub | Project documentation and version control |
 
-🧰 Tools & Technologies Used
-Tool	Purpose
-Python (Jupyter Notebook)	Data cleaning and preprocessing
-Pandas	Data manipulation and transformation
-Tableau Public	Data visualization and dashboard creation
-GitHub	Project documentation and version control
-📂 Dataset
 
-Dataset: Amazon Product Dataset
+---
 
-The dataset contains 1465 products across multiple categories.
+# 📂 Dataset
 
-Key Columns
-Column	Description
-Product ID	Unique identifier for each product
-Product Name	Product title
-Category	Product category
-Discounted Price	Selling price after discount
-Actual Price	Original product price
-Discount Percentage	Discount applied
-Rating	Customer rating (1–5)
-Rating Count	Number of customer reviews
-🧹 Data Cleaning & Preparation
+Dataset: **Amazon Product Dataset**
 
-Data preprocessing was performed using Python (Pandas) to ensure accuracy before visualization.
+The dataset contains **1465 products across multiple categories**.
 
-Cleaning Steps
+## Key Columns
 
-Removed ₹ currency symbols from price columns
+| Column | Description |
+|------|-------------|
+| Product ID | Unique identifier for each product |
+| Product Name | Product title |
+| Category | Product category |
+| Discounted Price | Selling price after discount |
+| Actual Price | Original product price |
+| Discount Percentage | Discount applied |
+| Rating | Customer rating (1–5) |
+| Rating Count | Number of customer reviews |
 
-Converted price fields to numeric format
 
-Cleaned rating count values by removing commas
+---
 
-Converted discount percentages to numeric values
+# 🧹 Data Cleaning & Preparation
 
-Handled missing or inconsistent values
+Data preprocessing was performed using **Python (Pandas)** to ensure accuracy before visualization.
 
-Feature Engineering
+## Cleaning Steps
+
+- Removed ₹ currency symbols from price columns
+- Converted price columns to numeric format
+- Cleaned rating count values by removing commas
+- Converted discount percentages to numeric values
+- Handled missing or inconsistent values
+
+
+---
+
+# ⚙️ Feature Engineering
 
 A new metric was created to approximate product performance.
 
+Estimated Revenue Formula:
+
 Estimated Revenue = Discounted Price × Rating Count
 
-This metric helps identify high-performing products and categories.
+This metric helps identify:
 
-📊 Dashboard Visualizations
+- High-performing products
+- Revenue-generating categories
 
-The Tableau dashboard includes five key visualizations.
 
-Revenue by Category
+---
 
-Shows which product categories generate the highest estimated revenue.
+# 📊 Dashboard Visualizations
 
-Top 10 Products by Revenue
+The Tableau dashboard includes **five key visualizations**.
 
-Displays the highest performing products based on estimated revenue.
+---
 
-Products per Category
+## Revenue by Category
 
-Shows the distribution of products across categories.
+Shows which product categories generate the **highest estimated revenue**.
 
-Rating Distribution
+![Revenue by Category](images/revenue_category.png)
 
-Analyzes the spread of customer ratings to understand satisfaction levels.
+---
 
-Discount vs Rating
+## Top 10 Products by Revenue
 
-A scatter plot analyzing the relationship between discount levels and product ratings.
+Displays the **highest performing products** based on estimated revenue.
 
-📈 Key Insights
-1️⃣ Electronics Drives the Majority of Revenue
+![Top Products](images/top_products.png)
 
-The Electronics category contributes the highest estimated revenue, indicating strong demand for electronics products.
+---
 
-2️⃣ High Customer Satisfaction
+## Products per Category
+
+Shows the **distribution of products across categories**.
+
+![Products per Category](images/products_per_category.png)
+
+---
+
+## Rating Distribution
+
+Analyzes the spread of customer ratings to understand **customer satisfaction levels**.
+
+![Rating Distribution](images/rating_distribution.png)
+
+---
+
+## Discount vs Rating
+
+A scatter plot analyzing the **relationship between discount levels and product ratings**.
+
+![Discount vs Rating](images/discount_rating.png)
+
+
+---
+
+# 📈 Key Insights
+
+### 1️⃣ Electronics Drives the Majority of Revenue
+
+- The **Electronics category contributes the highest estimated revenue**.
+- This indicates strong demand for electronics products.
+
+---
+
+### 2️⃣ High Customer Satisfaction
 
 Most products have ratings between:
 
 4.0 – 4.5
 
-This suggests overall strong customer satisfaction across categories.
+This suggests **overall strong customer satisfaction**.
 
-3️⃣ Discounts Do Not Significantly Impact Ratings
+---
 
-The scatter plot analysis shows no strong negative relationship between discounts and product ratings.
+### 3️⃣ Discounts Do Not Significantly Impact Ratings
 
-This indicates that discounted products still maintain high customer ratings.
+- The scatter plot shows **no strong negative relationship between discounts and product ratings**.
+- Discounted products still maintain **high ratings**.
 
-4️⃣ Uneven Product Distribution
+---
 
-Some categories contain significantly more products than others, suggesting inventory concentration in certain segments.
+### 4️⃣ Uneven Product Distribution
 
-💡 Business Recommendations
+- Some categories contain significantly more products than others.
+- This suggests **inventory concentration in certain segments**.
 
-Based on the analysis, the following strategies are recommended:
 
-Expand High-Revenue Categories
+---
 
-Invest more inventory and marketing resources in high-performing categories such as Electronics.
+# 💡 Business Recommendations
 
-Promote Best-Selling Products
+### Expand High-Revenue Categories
 
-Top-performing products should be prioritized for advertising and promotional campaigns.
+Increase inventory and marketing efforts in **high-performing categories such as Electronics**.
 
-Maintain Strategic Discounting
+---
 
-Since discounts do not significantly reduce ratings, discount strategies can be used to increase sales without harming customer perception.
+### Promote Best-Selling Products
 
-Optimize Category Inventory
+Top-performing products should be prioritized for **advertising and promotional campaigns**.
 
-Review product distribution across categories to ensure balanced inventory and improved category performance.
+---
 
-📊 Tableau Dashboard
+### Maintain Strategic Discounting
+
+Since discounts do **not significantly reduce ratings**, discount strategies can be used to **increase sales without harming customer perception**.
+
+---
+
+### Optimize Category Inventory
+
+Review product distribution across categories to ensure **balanced inventory and improved category performance**.
+
+
+---
+
+# 📊 Tableau Dashboard
 
 Explore the interactive dashboard here:
 
-🔗 Tableau Public Dashboard:
+🔗 Tableau Public Dashboard  
 (Add your Tableau Public link here)
 
-📁 Project Structure
+
+---
+
+# 📁 Project Structure
+
+```
 Ecommerce-Sales-Analytics
 │
 ├── data
@@ -159,30 +223,35 @@ Ecommerce-Sales-Analytics
 │   └── products_per_category.png
 │
 └── README.md
-🚀 Future Improvements
+```
+
+
+---
+
+# 🚀 Future Improvements
 
 Possible extensions of this project include:
 
-Performing time-series analysis on sales trends
+- Performing **time-series analysis on sales trends**
+- Conducting **sentiment analysis on customer reviews**
+- Building **predictive models for product performance**
+- Creating **advanced KPI dashboards**
 
-Conducting sentiment analysis on customer reviews
 
-Building predictive models for product performance
+---
 
-Creating advanced KPI dashboards
+# 📌 Conclusion
 
-📌 Conclusion
+This project demonstrates a complete **data analytics workflow**, including:
 
-This project demonstrates a complete data analytics workflow, including:
+- Data cleaning and preparation
+- Exploratory data analysis
+- Data visualization
+- Business insight generation
 
-Data cleaning and preparation
+The dashboard provides insights that can help businesses:
 
-Exploratory data analysis
-
-Data visualization
-
-Business insight generation
-
-The dashboard provides actionable insights that can help businesses improve product strategy, pricing decisions, and category management.
-
-If you want, I can also give you a very powerful LinkedIn post template that will make this project look extremely impressive to recruiters and internship evaluators.
+- Identify revenue drivers
+- Understand customer satisfaction
+- Optimize pricing strategies
+- Improve product and category management
