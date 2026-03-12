@@ -92,7 +92,7 @@ The Tableau dashboard includes **five key visualizations**.
 
 Shows which product categories generate the **highest estimated revenue**.
 
-![Revenue by Category](images/revenue_category.png)
+![Revenue by Category](images/Revenue_By_Category.png)
 
 ---
 
@@ -100,7 +100,7 @@ Shows which product categories generate the **highest estimated revenue**.
 
 Displays the **highest performing products** based on estimated revenue.
 
-![Top Products](images/top_products.png)
+![Top Products](images/Top_Products.png)
 
 ---
 
@@ -108,7 +108,7 @@ Displays the **highest performing products** based on estimated revenue.
 
 Shows the **distribution of products across categories**.
 
-![Products per Category](images/products_per_category.png)
+![Products per Category](images/Products_per_Category.png)
 
 ---
 
@@ -116,7 +116,7 @@ Shows the **distribution of products across categories**.
 
 Analyzes the spread of customer ratings to understand **customer satisfaction levels**.
 
-![Rating Distribution](images/rating_distribution.png)
+![Rating Distribution](images/Rating_Distribution.png)
 
 ---
 
@@ -124,7 +124,7 @@ Analyzes the spread of customer ratings to understand **customer satisfaction le
 
 A scatter plot analyzing the **relationship between discount levels and product ratings**.
 
-![Discount vs Rating](images/discount_rating.png)
+![Discount vs Rating](images/Discount_vs_Rating.png)
 
 
 ---
