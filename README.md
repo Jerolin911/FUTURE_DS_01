@@ -129,7 +129,7 @@ A scatter plot analyzing the **relationship between discount levels and product 
 
 ---
 
-# 📈 Key Insights
+# Key Insights
 
 ### 1️. Electronics Drives the Majority of Revenue
 
