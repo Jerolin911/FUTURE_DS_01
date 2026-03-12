@@ -1,6 +1,6 @@
 # 📊 E-Commerce Sales Performance Analytics
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes an **Amazon e-commerce product dataset** to evaluate product performance, pricing strategies, and customer satisfaction.
 
@@ -17,7 +17,7 @@ The final output is an **interactive Tableau dashboard** highlighting:
 
 ---
 
-# 🧰 Tools & Technologies Used
+# Tools & Technologies Used
 
 | Tool | Purpose |
 |-----|------|
@@ -29,7 +29,7 @@ The final output is an **interactive Tableau dashboard** highlighting:
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 Dataset: **Amazon Product Dataset**
 
@@ -51,7 +51,7 @@ The dataset contains **1465 products across multiple categories**.
 
 ---
 
-# 🧹 Data Cleaning & Preparation
+# Data Cleaning & Preparation
 
 Data preprocessing was performed using **Python (Pandas)** to ensure accuracy before visualization.
 
@@ -66,7 +66,7 @@ Data preprocessing was performed using **Python (Pandas)** to ensure accuracy be
 
 ---
 
-# ⚙️ Feature Engineering
+# Feature Engineering
 
 A new metric was created to approximate product performance.
 
@@ -131,14 +131,14 @@ A scatter plot analyzing the **relationship between discount levels and product 
 
 # 📈 Key Insights
 
-### 1️⃣ Electronics Drives the Majority of Revenue
+### 1️. Electronics Drives the Majority of Revenue
 
 - The **Electronics category contributes the highest estimated revenue**.
 - This indicates strong demand for electronics products.
 
 ---
 
-### 2️⃣ High Customer Satisfaction
+### 2️. High Customer Satisfaction
 
 Most products have ratings between:
 
@@ -148,14 +148,14 @@ This suggests **overall strong customer satisfaction**.
 
 ---
 
-### 3️⃣ Discounts Do Not Significantly Impact Ratings
+### 3. Discounts Do Not Significantly Impact Ratings
 
 - The scatter plot shows **no strong negative relationship between discounts and product ratings**.
 - Discounted products still maintain **high ratings**.
 
 ---
 
-### 4️⃣ Uneven Product Distribution
+### 4. Uneven Product Distribution
 
 - Some categories contain significantly more products than others.
 - This suggests **inventory concentration in certain segments**.
@@ -163,7 +163,7 @@ This suggests **overall strong customer satisfaction**.
 
 ---
 
-# 💡 Business Recommendations
+# Business Recommendations
 
 ### Expand High-Revenue Categories
 
@@ -200,7 +200,7 @@ Explore the interactive dashboard here:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 Ecommerce-Sales-Analytics
@@ -228,7 +228,7 @@ Ecommerce-Sales-Analytics
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Possible extensions of this project include:
 
@@ -240,7 +240,7 @@ Possible extensions of this project include:
 
 ---
 
-# 📌 Conclusion
+# Conclusion
 
 This project demonstrates a complete **data analytics workflow**, including:
 
