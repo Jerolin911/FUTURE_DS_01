@@ -214,9 +214,6 @@ Ecommerce-Sales-Analytics
 ├── notebooks
 │   └── data_cleaning_analysis.ipynb
 │
-├── dashboard
-│   └── tableau_dashboard.twbx
-│
 ├── images
 │   ├── dashboard.png
 │   ├── revenue_category.png
