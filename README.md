@@ -198,7 +198,9 @@ Explore the interactive dashboard here:
 https://public.tableau.com/app/profile/jerolin.mathew/viz/FUTURE_TASK_01_Tableau/Dashboard1?publish=yes
 
 Screenshot of Dashboard
-!(images/Dashboard.png)
+## 📊 Tableau Dashboard
+
+![Dashboard Screenshot](images/Dashboard.png)
 ---
 
 # Project Structure
